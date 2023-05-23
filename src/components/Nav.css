@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    background-color: #171717;
+    color: white;
+}
+
+.nav .left img{
+    height: 35px;
+}
+.nav .mid ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav .mid ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.nav .mid ul li:hover{
+    color: burlywood;
+    background-color: #3203039c;
+}
+
+.nav .right{
+    padding-right: 20px;
+}
+.nav .right img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
