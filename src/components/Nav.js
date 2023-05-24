@@ -8,14 +8,16 @@ const Nav = () => {
     
     <div className = "nav">
         <div className="left">
-            <img src="../images/logo.png" alt="" />
+            <Link to = "/">
+                <img src="../images/logo.png" alt="" />
+            </Link>
         </div>
         <div className="mid">
             <ul>
                 <li><Link to = "/" className='link'>Home </Link></li>
-                <li><Link to = "/popular" className='link'>Popular </Link></li>
-                <li><Link to = "/latest"className='link'>Latest </Link></li>
-                <li><Link to = "/genres"className='link'>Genres </Link></li>
+                <li><Link to = "popular" className='link'>Popular </Link></li>
+                <li><Link to = "latest"className='link'>Latest </Link></li>
+                <li><Link to = "genres"className='link'>Genres </Link></li>
             </ul>
         </div>
         <div className="right">

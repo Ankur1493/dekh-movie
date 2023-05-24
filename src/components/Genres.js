@@ -1,10 +1,12 @@
 import React from 'react'
-import Nav from './Nav'
 
 const Genres = () => {
   return (
     <div>
-      <Nav/>
+      <div>genres</div>
+      <div>genres</div>
+      <div>genres</div>
+      <div>genres</div>
     </div>
   )
 }

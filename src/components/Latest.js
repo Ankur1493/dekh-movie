@@ -1,10 +1,18 @@
 import React from 'react'
-import Nav from './Nav'
 
 const Latest = () => {
   return (
     <div>
-      <Nav/>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
+      <div>latest</div>
     </div>
   )
 }
