@@ -1,5 +1,7 @@
 // import React, { useEffect, useState } from 'react';
 // import fetchMovieData from '../apiCall';
+import React from "react";
+import Layout from "./Layout";
 
 const Normal = () => {
   // const [data, setData] = useState(null);
@@ -18,24 +20,8 @@ const Normal = () => {
   // }, []);
 
   return (
-    <div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
-      <div>Normal</div>
+    <div className="normal">
+      <Layout title = {"The Batman"} img = {"test-poster-image"}/>
     </div>
   );
 };

@@ -1,18 +1,9 @@
 import React from 'react'
-
+import Layout from './Layout'
 const Latest = () => {
   return (
     <div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
-      <div>latest</div>
+      <Layout title = {"The Dark Knight"} img = {"test-poster-image4"}/>
     </div>
   )
 }

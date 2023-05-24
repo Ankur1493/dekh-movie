@@ -1,14 +1,10 @@
 import React from 'react'
+import Layout from "./Layout";
 
 const Popular = () => {
   return (
       <div>
-        <div>popular</div>
-        <div>popular</div>
-        <div>popular</div>
-        <div>popular</div>
-        <div>popular</div>
-        <div>popular</div>
+      <Layout title = {"Zack Snyder Lustice League"} img = {"test-poster-image3"}/>
       </div>  
     )
 }

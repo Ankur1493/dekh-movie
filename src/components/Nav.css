@@ -5,9 +5,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 40px;
+    height: 60px;
     background-color: #171717;
     color: white;
+    z-index: 11;
 }
 
 .nav .left img{
@@ -22,6 +23,7 @@
 .nav .mid ul li .link{
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 18px;
     padding-bottom: 0px;
     cursor: pointer;
     border-radius: 20px;

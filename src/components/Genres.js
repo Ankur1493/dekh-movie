@@ -1,12 +1,10 @@
 import React from 'react'
+import Layout from './Layout'
 
 const Genres = () => {
   return (
     <div>
-      <div>genres</div>
-      <div>genres</div>
-      <div>genres</div>
-      <div>genres</div>
+      <Layout title = {"Batman vs Superman"} img = {"test-poster-image2"}/>
     </div>
   )
 }
