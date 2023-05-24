@@ -19,16 +19,18 @@
     list-style: none;
 }
 
-.nav .mid ul li{
+.nav .mid ul li .link{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
     cursor: pointer;
     border-radius: 20px;
     transition-duration: 500ms;
+    color: white;
+    text-decoration: none;
 }
 
-.nav .mid ul li:hover{
+.nav .mid ul li .link:hover{
     color: burlywood;
     background-color: #3203039c;
 }
