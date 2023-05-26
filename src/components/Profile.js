@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Profile.css"
+import { Link } from 'react-router-dom'
+
 const Profile = () => {
 
 
@@ -13,7 +15,9 @@ const Profile = () => {
             <img src="./images/user-profile.avif" alt="" />
             <h3>Ankur Sharma</h3>  
         </div>
-        <button>Log Out</button>
+        <Link to ="/login">
+          <button>Log Out</button>
+        </Link>
       </div>
     </div>
   )

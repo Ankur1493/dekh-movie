@@ -12,6 +12,7 @@ const Layout = ({ title, img, overview }) => {
     width: "99%",
     playerVars: {
       autoplay: 0,
+      fs: 0,
     }
   };
 
