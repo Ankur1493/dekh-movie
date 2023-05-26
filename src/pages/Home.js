@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Genres, Latest, Normal, Nav } from '../components/export';
-import Popular from '../components/Popular';
+import { Genres, Normal, Nav, Latest,Popular, Profile, GetMeToTop } from '../components/export';
 
 const Home = () => {
+
   return (
     <div>
-        <Nav />
-        <Routes>
-            <Route path="*" element={<Normal />} />
-            <Route path="popular" element={<Popular />} />
-            <Route path="genres" element={<Genres />} />
-            <Route path="latest" element={<Latest />} />
-        </Routes>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Normal />} />
+        <Route path="popular" element={<Popular />} />
+        <Route path="genres" element={<Genres />} />
+        <Route path="latest" element={<Latest />} />
+        <Route path="profile" element={<Profile />} />
+      </Routes>
+      <GetMeToTop/>
     </div>
   );
 };

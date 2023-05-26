@@ -17,11 +17,11 @@ const Nav = () => {
                 <li><Link to = "/" className='link'>Home </Link></li>
                 <li><Link to = "popular" className='link'>Popular </Link></li>
                 <li><Link to = "latest"className='link'>Latest </Link></li>
-                <li><Link to = "genres"className='link'>Genres </Link></li>
+                <li><Link to = "genres"className='link'>SuperHero </Link></li>
             </ul>
         </div>
         <div className="right">
-            <img src="../images/user-profile.avif" alt="" />
+            <Link to = "profile"> <img src="../images/user-profile.avif" alt="" /> </Link>
         </div>
     </div>
 

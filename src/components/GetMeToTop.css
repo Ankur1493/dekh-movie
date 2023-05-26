@@ -1,0 +1,27 @@
+.top {
+    border: 2px solid wheat;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 300ms;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .top.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .top:hover {
+    background-color: #000000;
+    color: aqua;
+  }
+  

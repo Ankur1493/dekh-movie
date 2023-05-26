@@ -1,15 +1,15 @@
-const fetchMovieData = async () => {
-  try {
-    const response = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=49201db0d2374f410ce50ffd8c1b3595');
-    if (!response.ok) {
-      throw new Error('Failed to fetch movie data');
-    }
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Error fetching movie data:', error);
-    throw error;
-  }
-};
+import axios from 'axios';
 
-export default fetchMovieData;
+/** base url to make request to the themoviedatabase */
+
+const instance = axios.create({
+	baseURL: 'https://api.themoviedb.org/3'
+});
+
+// instance.get('/foo-bar');
+// https://api.themoviedb.org/3/foo-bar
+
+export default instance;
+
+//fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
+//api_key=49201db0d2374f410ce50ffd8c1b3595
