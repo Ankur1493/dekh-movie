@@ -18,7 +18,7 @@ const Popular = () => {
       <div>
         <h2 style={{ paddingTop: '60px', paddingLeft: "10px", position: "fixed"}}>Popular</h2>
         {data.map(movie => (
-          <Layout key={movie.id} title={movie.title} img={movie.poster_path} />
+        <Layout key={movie.id} title={movie.title} img={movie.poster_path} head= {"Normal"} overview = {movie.overview}/>
         ))}
       </div>  
     )

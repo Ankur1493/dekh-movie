@@ -15,13 +15,12 @@ const Latest = () => {
     fetchData();
   }, []);
 
-  
   return (
     <div>
       <h2 style={{ paddingTop: '60px', paddingLeft: "10px", position: "fixed"}}>Latest</h2>
       {data.map(movie => (
-        <Layout key={movie.id} title={movie.title} img={movie.poster_path} />
-      ))}    </div>
+        <Layout key={movie.id} title={movie.title} img={movie.poster_path} head= {"Normal"} overview = {movie.overview}/>
+        ))}    </div>
   )
 }
 

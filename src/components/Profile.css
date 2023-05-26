@@ -8,11 +8,18 @@
     text-align: center;
 }
 
+.profileBox{
+    width: 350px;
+    height: 250px;
+    background-color: #171717;
+    border-radius: 20px;
+}
+
 .profileDetail{
     display: flex;
     text-align: center;
-    width: 250px;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 .profileDetail img{

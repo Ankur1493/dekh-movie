@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Genres, Normal, Nav, Latest,Popular, Profile, GetMeToTop } from '../components/export';
 
