@@ -21,17 +21,23 @@
     margin-top: 15px;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
 }
 
-.box img{
-    height: 160px;
-    max-width: 100px;
-    margin-left: 20px;
-    border-radius: 10px
+.box .poster{
+    background: #2f33368a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    flex: 0 0 100px;
+    height: 150px;
 }
+
 .box .details{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     text-align: left;
     margin-left: 15px;
 }
