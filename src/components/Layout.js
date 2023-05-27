@@ -37,7 +37,7 @@ const Layout = ({ title, img, overview }) => {
     <div className='layout'>
       <div className="square">
         <div className="box">
-          <img src={`${base_url}${img}`} alt="logo" />
+          <div className='poster' role='img' aria-label='Poster' style={{backgroundImage: `url(${base_url}${img})`}}></div>
           <div className="details">
             <div className="heads">
               <h2>{title}</h2>
